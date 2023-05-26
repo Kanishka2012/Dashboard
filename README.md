@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Dashboard displaying Calming Tunes that will help you sleep. It displays the thumbnail of the tune, it's title, artist, a short description and it's rating.
+Besides, the unique plays and total plays of the tune is displayed using a bar chart, alongside the completion rate which is displayed by a progress bar.
+
+The website is fully responsive and works for phone, tablet, laptops and desktops.
 
 ## Available Scripts
 
