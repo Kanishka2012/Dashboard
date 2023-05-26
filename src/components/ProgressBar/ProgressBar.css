@@ -1,0 +1,44 @@
+/* .container-styles = {
+    height: 20;
+    width: 100%;
+    background-color: #e0e0de;
+    border-radius: 50;
+    margin: 50;
+  }
+
+.filler-styles = {
+    height: 100%;
+    /* width: ${completed}%; */
+    /* background-color: red;
+    border-radius : inherit;
+    text-align : right;
+  } */
+
+/* .label-styles = {
+    padding: 5;
+    color: white;
+    font-weight: bold;
+  } */ */
+
+.parent-div{
+    width: 100%;
+    background-color: gray;
+    border-radius: 40px;
+    /* margin: 7px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text{
+  margin:0;
+}
+
+.completed{
+  margin-top: auto;
+}
+
+@media (max-width:1900px) {
+  .text{
+    margin-top: 10px;
+  }
+}

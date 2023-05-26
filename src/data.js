@@ -1,0 +1,55 @@
+const data=[
+    {
+        title:"Pure Shores",
+        image:"https://imageprod.eu-central-1.linodeobjects.com/products/1461251/620268b9252be",
+        artist:"All Saints",
+        rating:4,
+        unique_plays:11950,
+        desc:' "Pure Shores" is a dream pop song with ambient and electronic production, and a syncopation of synth delays, arpeggiated guitar and ethereal sound effects.',
+        completion_rate:70,
+        total_plays:90000,
+    },
+    {
+        title:"Weightless",
+        image:"https://f4.bcbits.com/img/a2824877849_10.jpg",
+        artist:"Marconi Union",
+        rating:5,
+        unique_plays:28000,
+        desc:'"Weightless" was voted the "Most Relaxing Music Ever". Researchers at Mindlab International found that participants who listened to the 8-minute song “Weightless,” reduced their anxiety by 65% and their resting heart rates by 35%.',
+        completion_rate:60,
+        total_plays:170000,
+    },
+    {
+        title:"We Can Fly",
+        image:"https://i.scdn.co/image/ab67616d0000b27342208593b616c96655acd352",
+        artist:"Rue du Soleil",
+        rating:4.5,
+        unique_plays:180000,
+        desc:"We Can Fly is a very emotional song. The track runs 6 minutes and 10 seconds long with a A key and a minor mode. During the study, this song had relaxation scores above 60, making it a potentially effective addition to your sleep music playlist.",
+        completion_rate:60,
+        total_plays:1289000,
+    },
+    {
+        title:"Canzonetta Sull'aria",
+        image:"https://i.scdn.co/image/ab67616d0000b2735c3cc428f5932a3d5e942bc8",
+        artist:"Mozart",
+        rating:3.5,
+        unique_plays:11000,
+        desc:"'Canzonetta Sull'aria' is a calming song which has higher complexity than the average song in terms Chord-Bass Melody.",
+        completion_rate:73,
+        total_plays:78900,
+    },
+    {
+        title:"Someone Like You",
+        image:"https://i1.sndcdn.com/artworks-000025514980-c6dl6t-t500x500.jpg",
+        artist:"Adele",
+        rating:4.5,
+        unique_plays:1200000,
+        desc:" 'Someone like You' was inspired by a broken relationship with one's life partner .Accompanied only by a piano in the song, Adele sings about the end of the relationship with her ex-partner.",
+        completion_rate:48,
+        total_plays:84577900,
+    },
+
+];
+
+export default data;

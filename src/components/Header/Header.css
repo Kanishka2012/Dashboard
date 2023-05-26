@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pangolin&family=Roboto:wght@300&family=Satisfy&family=Tsukimi+Rounded:wght@500&display=swap');
+
+.main-heading h1{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.main-heading{
+    background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:600px) {
+    .main-heading{
+        border-radius: 0px;
+    }
+    .main-heading h1{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,12 @@
+.stats-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (max-width:1900px) {
+    .stats-container{
+        padding: 0px 30px 20px 30px;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pangolin&family=Roboto:wght@300&family=Satisfy&display=swap');
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.label-style{
+    display: flex;
+}
+
+.heading h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.label-style h1, h3{
+    margin: 0;
+}
+
+.no-margin{
+    margin:0px;
+}
+
+.artist{
+    align-items: center;
+    background-color: #E6C197;
+    border: 1.5px solid #f1f1f1;
+    border-radius: 10px;
+    display: flex;
+    flex: 1 1;
+    margin:10px 0;
+    padding: 17px;
+    position: relative;
+    /* height: 20px; */
+    max-height: 7px;
+}
+
+.artist p{
+    font-size: 20px;
+    color: white;
+    font-weight: 620;
+}
+
+.rating{
+    display: flex;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+
+.rating img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.desc p{
+    margin: 0;
+}
+
+@media screen and (max-width:1300px) {
+    .info-container{
+        padding: 10px 30px;
+    }
+}
